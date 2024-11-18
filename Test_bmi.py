@@ -1,4 +1,4 @@
-from Lab2.bmi import calculate_bmi
+from Lab2.bmi import calculate_bmi #calculate_bmi is a function under the file 'bmi.py'
 
 def test_bmi_under_weight():
     # Test for BMI value that should be classified as "Under Weight"
