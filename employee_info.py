@@ -21,6 +21,7 @@ def get_employees_by_age_range(age_lower_limit, age_upper_limit):
 def calculate_average_salary():
     total = 0
     average = 0
+
     #add your implementation to calculate here
     count = 0
 
@@ -77,12 +78,14 @@ def display_main_menu():
         age_lower_limit = input("age (Lower Limit) = ")
         age_upper_limit = input("age (Uper Limit) = ")
         employee_info = get_employees_by_age_range(age_lower_limit, age_upper_limit)
+        #print(employee_info)
         display_records(employee_info)
 
 
     elif option == '4':
         department = input("Name of Department = ")
         employee_info = get_employees_by_dept(department)
+        #print(employee_info)
         display_records(employee_info)
 
     elif option == 'Q':
